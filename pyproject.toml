@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "course-work5"
+version = "0.1.0"
+description = ""
+authors = ["Екатерина <Krinicyna1998@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+psycopg2 = "^2.9.9"
+
+
+[tool.poetry.group.dev.dependencies]
+requests = "^2.31.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
